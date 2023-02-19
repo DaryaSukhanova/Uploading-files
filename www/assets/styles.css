@@ -1,0 +1,74 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+html, body{
+   height: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+}
+body{
+   background-color: rgb(245, 245, 245);
+}
+.wrapper{
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.container{
+   max-width: 1180px;
+   margin: 0 auto;
+}
+
+.main{
+   flex: 1 1 auto;
+   margin-top: 50px;
+   
+}
+h1{
+   font-size: 24px;
+   text-align: center;
+   margin: 35px;
+}
+
+.download-files form{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   justify-content: space-around;
+   
+
+}
+img{
+   width: 700px;
+   
+}
+
+input {
+   all: unset;
+}
+
+
+.button{
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+   cursor: pointer;
+   background-color: #000;
+   color: #fff;
+   width: 120px;
+   height: 30px;
+   margin-bottom: 50px;
+}
+
+.files {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   width: 1000px;
+}
+.image{
+   margin-bottom: 50px;
+   display: inline-block;
+   margin: 0 auto;
+}
